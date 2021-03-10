@@ -25,11 +25,11 @@
 
   }
 
-  .container .show-nav{
+  .container.show-nav {
     transform: rotate(-20deg);
   }
 
-  .circle-container{
+  .circle-container {
     position: fixed;
     top: -100px;
     left: -100px;
@@ -43,7 +43,7 @@
       transition: transform 0.5s linear;
     }
     
-    .container.show-nav  .cirlce {
+    .container.show-nav  .circle {
       transform: rotate(-70deg);
     }
 
@@ -116,7 +116,7 @@
       transform: translateX(-200%);
     }
 
-    .content img{
+    .content img {
       min-width: 100%;
     }
 
